@@ -1,6 +1,8 @@
 // @ts-check
 import eslint from "@eslint/js";
 import tseslint from "typescript-eslint";
+import eslintConfigPrettier from "eslint-config-prettier";
+
 export default tseslint.config({
   languageOptions: {
     parserOptions: {
@@ -12,6 +14,7 @@ export default tseslint.config({
   extends: [
     eslint.configs.recommended,
     ...tseslint.configs.recommendedTypeChecked,
+    eslintConfigPrettier
   ],
   rules: {
     "no-console": "error",
