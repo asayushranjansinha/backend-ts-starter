@@ -17,10 +17,10 @@
       "npm run lint:fix"
     ]
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["express","node","typescript","eslint","prettier","starte-template"],
+  "author": "Ayush Ranjan Sinha",
   "license": "ISC",
-  "description": "",
+  "description": "A basic TypeScript starter template for backend projects using Express.js Node.js. Follows the industry standard MVC (Model View Controller) pattern along with strict typechecking.",
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
